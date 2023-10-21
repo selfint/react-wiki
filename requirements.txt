@@ -1,9 +1,9 @@
 transformers
 accelerate
-optimum
 torch
 guidance
 Wikipedia-API
 wikipedia
 FlagEmbedding
 tqdm
+rank_bm25
