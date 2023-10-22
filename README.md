@@ -10,7 +10,7 @@ using [guidance](https://github.com/guidance-ai/guidance) and the Wikipedia api.
 The model's action affect a state object, that keeps track of the currently opened
 Wikipedia article.
 
-## Chunking
+### Chunking
 
 The article text (ignoring tables and images) is chunked using the embedder's
 tokenizer. This might be an issue if you also use rerank, since they use different
