@@ -25,6 +25,12 @@ implemented there, but it is not used. To use bm25, replace the lookup action in
 the `State` init call to use `bm25`. To use a reranker after the semantic search,
 set `rerank=True`.
 
+### Infer action
+
+Another action was added, other than `Search`, `Lookup`, and `Finish`, I added an `Infer` action.
+This proved valuable for tasks requiring calculations, and where the answer to the
+question was not explicitly in the text. More on the `Infer` action [below](#infer-how-old-was-julius-caesar-when-he-died).
+
 ### Model
 
 I used [ehartford/dolphin-2.1-mistral-7b](https://huggingface.co/ehartford/dolphin-2.1-mistral-7b).
