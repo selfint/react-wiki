@@ -21,7 +21,7 @@ to reach the perfect answer of 55 years, 8 months, and 3 days.
 
 However, if the calculations performed during inference get too long, the model again
 gets sidetracked, hallucinating facts like "to convert from BC to AD we need to add
-100 years". The current Infer instruction still get a close answer "56 years", but
+100 years". The current Infer instruction still gets a close answer "56 years", but
 doesn't easily get sidetracked due to long calculations.
 
 Using a more powerful model will probably solve this issue, and encouraging the model
